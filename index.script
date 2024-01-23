@@ -1,0 +1,6 @@
+ $(document).ready(function() {
+      $(".clickable").on("click", function() {
+        var description = $(this).data("description");
+        $(".col-md-4").html(description);
+      });
+    });
