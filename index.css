@@ -8,7 +8,11 @@
 }
 
   .middle{
+<<<<<<< Updated upstream
     background-image: url("C:/Users/chand/Downloads/homeBGG.webp") ;
+=======
+    background-image: url("./homeBGG.webp") ;
+>>>>>>> Stashed changes
     height: 700px; 
     width: 100%;
     margin-top: -2px;
