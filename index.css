@@ -68,6 +68,23 @@ header {
     border-radius: 5px;
     cursor: pointer;
   }
+ .col-md-4 {
+  background-color: #863b5f;
+ }
+ .col-md-6 {
+  color: #db6319;
+ }
+ .col-md-10{
+  font-size: 22px;
+  font-style: italic;
+text-align: center;
+
+ }
+ .col-md-1{
+  position: fixed;
+  right: 3%;
+ }
+ 
   .socialMedia{
     
     padding: 10px;
