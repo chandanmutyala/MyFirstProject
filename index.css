@@ -1,9 +1,10 @@
 .headerClass{
-  background-color: rgb(19, 154, 233);
+  background-color:#11024e;
 }
 .footerClass{
-  background-color: rgb(19, 154, 233);
-  height:60px;
+  background-color:#11024e;
+  height: 170;
+  
   
 }
 
@@ -66,4 +67,28 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+  .socialMedia{
+    
+    padding: 10px;
+    gap: 10px;
+    margin-left: 680px;
+    color: white;
+    
+   
+  }
+  hr{
+    margin-top:8px ;
+    display: flex;
+    margin-left: -700px;
+    color: white;
+  }
+  .footerParagraph{
+    margin-top: 35px;
+    position:absolute;
+    right: 640px;
+    color:white;
+  }
+  .follower{
+    margin-left: 40px;
   }
