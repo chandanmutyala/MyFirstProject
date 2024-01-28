@@ -68,11 +68,13 @@ header {
     border-radius: 5px;
     cursor: pointer;
   }
- .col-md-4 {
-  background-color: #863b5f;
+ .col-md-8 {
+  background-color: #fbfbfb;
+  height: 450px;
  }
- .col-md-6 {
-  color: #db6319;
+ .col-md-3 {
+  background-color: #e1de44;
+  height: 450px;
  }
  .col-md-10{
   font-size: 22px;
@@ -82,7 +84,11 @@ text-align: center;
  }
  .col-md-1{
   position: fixed;
-  right: 3%;
+  right: 1%;
+  height: 450px;
+  margin-right: -11px;
+  top:70px;
+  
  }
  
   .socialMedia{
@@ -109,3 +115,29 @@ text-align: center;
   .follower{
     margin-left: 40px;
   }
+  .clickable{
+    align-items: center;
+  }
+  .scrollable-profile {
+    height: 450px; /* Set a fixed height as needed */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    border: 1px solid #430cb1; /* Optional: Add a border for better visibility */
+    padding: 10px; /* Optional: Add padding for better spacing */
+  }
+  .scrollable-skills{
+    overflow-y: auto;
+    height: 450px;
+    border: 1px solid #430cb1;
+    padding: 10px;
+
+  }
+  .profile-margin{
+    margin-left: 60px;
+
+  }
+
+  .profile-margin p{
+    font-size: 30px;
+    
+  }
+  
