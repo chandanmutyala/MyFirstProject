@@ -41,7 +41,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Align items vertically in the center */
+    align-items: center; 
     background-color: #333;
     padding: 10px;
   }
@@ -55,17 +55,14 @@ header {
 
   .navigation {
     display: flex;
-    gap: 50px; /* Adjust the gap between buttons */
+    gap: 50px; 
   }
 
   .button {
-    padding: 10px 20px;
     font-size: 16px;
     text-decoration: none;
-    color: #100345;
-    background-color: #db6319;
+    color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
   }
  .col-md-8 {
@@ -111,10 +108,12 @@ text-align: center;
     position:absolute;
     right: 640px;
     color:white;
+    gap: 10px;
   }
   .follower{
     margin-left: 40px;
   }
+<<<<<<< Updated upstream
   .clickable{
     align-items: center;
   }
@@ -140,4 +139,66 @@ text-align: center;
     font-size: 30px;
     
   }
+=======
+  .terms{
+    margin-left: 500px;
+    margin-top: 35px;
+    position:absolute;
+  }
+  .contact-us-button {
+    position: fixed;
+    bottom: 30px;
+   right: 20px;
+    z-index: 999; 
+}
+
+.contact-button {
+    background-color: rgb(209, 236, 9);
+    color:rgb(5, 2, 52);
+    border: none;
+    padding: 15px 20px;                               
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.contact-button:hover {
+    background-color: #05dc1a;
+}
+
+.contact-button i {
+    margin-left: 10px;
+}
+.domains{
+ margin: auto;
+  display: block;
+  background-color: #11024e;
+  align-items: center;
+  display: flex;
+  font-size:xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color:rgb(240, 238, 238);
+}
+.workingDomain{
+  align-items: center;
+  background-color: #11024e; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+ 
+.Domains img{
+  border-radius: 50%;
+  
+  
+
+}
+
+>>>>>>> Stashed changes
   

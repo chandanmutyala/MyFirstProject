@@ -7,6 +7,12 @@ const c =() =>{
     a.style.color = "green"
 }
 
+function openContactForm() {
+    
+    alert("Contact form opened!");
+}
+
+
 const about=document.getElementsByClassName("about");
 console.log(about);
 
