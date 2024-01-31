@@ -38,11 +38,9 @@
                             <img class="mt-2 clickable" onclick="tagLine()"  src="aparna.jpg" alt="Your Image Description" data-description=" <h2>Gopi Chandhu</h2> "style="width: 75px; height: 75px; border-radius: 50%;">
                             <img class="mt-2 clickable"onclick="superLine()" src="gopi.webp" alt="Your Image Description" data-description="Pawan Kalyan" style="width: 75px; height: 75px; border-radius: 50%;">
                             <img class="mt-2 clickable" src="C:\Users\chand\Downloads\4ddf0508-e5dd-43a7-938b-59bb1a8345e6.jpg" alt="Your Image Description" data-description="Aparna" style="width: 75px; height: 75px; border-radius: 50%;">
-=======
                             <img class="mt-2 clickable" onclick="tagLine()"  src="aparna.jpg" alt="Your Image Description" data-description=" <h2>Gopi Chandhu</h2> "style="width: 50px; height: 50px; border-radius: 50%;">
                             <img class="mt-2 clickable"onclick="superLine()" src="gopi.webp" alt="Your Image Description" data-description="Pawan Kalyan" style="width: 50px; height: 50px; border-radius: 50%;">
                             <img class="mt-2 clickable" src="aparna.jpg" alt="Your Image Description" data-description="Aparna" style="width: 50px; height: 50px; border-radius: 50%;">
->>>>>>> Stashed changes
                         </div>
                     </div>
                 
@@ -62,7 +60,7 @@
                       <!-- JSON data for the first column will be dynamically inserted here -->
                     </div>
             
-                    <div class="col-md-8 about d-none scrollable-skills" id="skillsColumn">
+                    <div class="col-md-8 about  scrollable-skills" id="skillsColumn">
                       <!-- JSON data for the second column will be dynamically inserted here -->
                     </div>
                   </div>
@@ -179,6 +177,36 @@ if (a > 0) {
     });*/
     
     
+            </script>
+            <script>
+              fetch('http://192.168.68.114:8080/getStudents2', {
+                method: 'GET', // Specify the method as POST
+              })
+              .then(response => {
+                // Handle the response from the server
+                return response.json(); // Assuming you expect JSON response
+              })
+              .then(data => {
+                // Process the data returned by the server
+                console.log(data);
+                const d = document.getElementById('profileColumn');
+                const e = document.getElementById('skillsColumn');
+                
+
+                d.style.marginLeft = "20px";
+
+              console.log(data);
+              d.innerHTML  = data.id;
+              e.innerHTML  = data.name;
+              console.log(d);
+              console.log(e);
+              })
+              .catch(error => {
+                // Handle any errors that occur during the request
+                console.error('Error:', error);
+              });
+              
+
             </script>
             <script src="script.js"></script>
     </body>
